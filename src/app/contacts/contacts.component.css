@@ -1,0 +1,105 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+.contact-section {
+  padding: 40px;
+  text-align: center;
+}
+.contact-container {
+  border: 2px solid #ccc;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px; /* Space between title and items */
+  text-align: center;
+    width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.contact-items {
+  display: flex;
+  justify-content: space-around; /* Distribute space around the items */
+  width: 100%;
+  gap: 20px; /* Additional space between items, if needed */
+}
+.contact-link {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column; /* Stack icon and text vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2); /* Makes the icon bigger when hovered */
+}
+
+.contact-item span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.contact-text {
+  font-size: 1.1rem;
+}
+.contact-link:hover .contact-icon {
+  transform: scale(1.2);
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .contact-text {
+    font-size: 1rem;
+  }
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

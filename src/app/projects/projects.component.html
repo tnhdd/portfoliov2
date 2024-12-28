@@ -1,0 +1,9 @@
+<div class="projects-container">
+  <h1>Projects</h1>
+  <ul>
+    <li *ngFor="let project of projects">
+      <a [routerLink]="['/project', project.name]">{{ project.name }}</a>
+      <p>{{ project.description }}</p>
+    </li>
+  </ul>
+</div>

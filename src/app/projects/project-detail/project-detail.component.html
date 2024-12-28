@@ -1,0 +1,13 @@
+<div class="project-detail-container">
+  <h1>{{ projectName }}</h1>
+  <p [innerHTML]="projectDescription"></p>
+  <!-- Photo Carousel Section -->
+  <div class="photo-carousel">
+    <img [src]="photos[currentPhotoIndex]" alt="{{ projectName }}" />
+    <div class="carousel-btn-container">
+      <button (click)="previousPhoto()" class="carousel-btn">← Previous</button>
+      <a [href]="downloadLink" target="_blank"> <button class="download-btn">Download Project</button> </a>
+      <button (click)="nextPhoto()" class="carousel-btn">Next →</button>
+    </div>
+  </div>
+</div>

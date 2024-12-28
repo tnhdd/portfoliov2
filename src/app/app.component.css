@@ -1,0 +1,64 @@
+/* General Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url("/background.jpg"); /* Path to your image */
+  background-size: cover; /* Cover the whole page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: sticky; /* Keeps the navbar at the top */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center; /* Center the navbar content horizontally */
+  align-items: center; /* Center the navbar items vertically (optional) */
+  width: 100%;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex; /* Make the navbar items inline */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* Content Styling */
+.content {
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Centers the container */
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+  .container {
+    padding: 10px;
+  }
+}

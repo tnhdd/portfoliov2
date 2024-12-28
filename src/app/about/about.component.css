@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+.about-container {
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px; /* Ensure the same width */
+  margin: 20px auto; /* Center the container */
+}
+/* Skills Container */
+.skills-container {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  max-width: 800px; /* Ensure the same width */
+  margin: 20px auto; /* Center the container */
+}
+
+.skills-title {
+  font-size: 2rem; /* Same size as h1 */
+  text-align: center;
+  background-color: transparent;
+}
+
+.skills-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-container li {
+  margin-bottom: 10px;
+  font-size: 1.1rem; /* Consistent with p font size */
+}
+
+ul {
+  list-style-type: none; 
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+li {
+  font-size: 1rem;
+  margin: 10px 0;
+  padding-left: 25px; 
+  position: relative;
+  list-style-position: inside;
+}
+
+li::before {
+  content: "•";
+  color: #000000;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 50%; 
+  transform: translateY(-50%); 
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .skills-title {
+    font-size: 1rem;
+  }
+}
+.clickable-text {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.clickable-text:hover {
+  color: #0056b3;
+}
