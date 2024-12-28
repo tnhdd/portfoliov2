@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Portfolio",
+    "description": "This project was developed using Angular 18 and Visual Studio as a personal portfolio. Throughout the development process, I gained valuable knowledge in areas such as routing, the use of ProviderRouter and HttpClient, as well as fetching data from JSON files, among other skills.",
+    "photos": [
+      "Portfolio/photo1.png",
+      "Portfolio/photo2.png"
+    ],
+    "downloadLink": "https://github.com/tnhdd/portfoliov2"
+  },
+  {
+    "name": "Chickey",
+    "description": "The creation of this game began as a school project, drawing inspiration from a traditional Vietnamese folklore game. \nIn this game, your goal is to locate five randomly generated chickens to complete each level, all while avoiding various monsters. \nThere are different types of monsters: the green ones patrol randomly and can eat your chickens, while the vampire ones can attack you directly. \nThroughout the journey, a companion aids you by providing tools and new abilities, which you obtain upon completing each level.",
+    "photos": [
+      "Chickey/photo1.png",
+      "Chickey/photo4.png",
+      "Chickey/photo5.png"
+    ],
+    "downloadLink": "https://tuandod21.itch.io/chickey"
+  },
+  {
+    "name": "BarApp",
+    "description": "BarApp is an Android application that allows you to check the ingredients and steps to make cocktails and drinks. The application supports two languages: English and Spanish, users can change the language in the settings. It was created using Android Studio and Java",
+    "photos": [
+      "BarApp/photo1.jpg",
+      "BarApp/photo2.jpg",
+      "BarApp/photo3.jpg",
+      "BarApp/photo4.jpg",
+      "BarApp/photo5.jpg"
+    ],
+    "downloadLink": "https://github.com/tnhdd/BarApp"
+  }
+  
+]
