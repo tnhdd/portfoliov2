@@ -29,6 +29,15 @@
       "BarApp/photo5.jpg"
     ],
     "downloadLink": "https://github.com/tnhdd/BarApp"
+  },
+  {
+    "name": "SuperheroAPI",
+    "description": "The Superhero API is a RESTful web service built using C# .NET 8 that allows users to manage a database of superheroes. It provides full CRUD (Create, Read, Update, Delete) functionality",
+    "photos": [
+      "Superhero/photo1.png",
+      "Superhero/photo2.png"
+    ],
+    "downloadLink": "https://github.com/tnhdd/SuperHeroAPI-dotNet8"
   }
   
 ]
